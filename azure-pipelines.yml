@@ -25,6 +25,6 @@ steps:
     az devops configure --defaults organization=https://[REPLACE WITH YOUR DEVOPS ORGANIZATION].visualstudio.com project="DevOps-Patterns" --use-git-aliases true
     az devops project list --output table
 
-  displayName: 'Show list of projects'
-  env:
-    AZURE_DEVOPS_CLI_PAT: $(System.AccessToken)
+#  displayName: 'Show list of projects'
+#  env:
+#    AZURE_DEVOPS_CLI_PAT: $(System.AccessToken)
